@@ -21,8 +21,8 @@ then rerun `gravedecay-mac install`. To remove it, run
 projectmushroom/gravedecay/gravedecay-companion`; the former keeps Application
 Support data unless you explicitly pass `--purge`.
 
-The unsigned native macOS DMG is documented upstream at
-[clients/apple](https://github.com/projectmushroom/gravedecay/tree/master/clients/apple).
+The [unsigned native macOS DMG](https://github.com/projectmushroom/gravedecay/releases/download/v0.22.0/Gravedecay-macOS.dmg)
+is available from the v0.22.0 release.
 See the upstream [macOS guide](https://github.com/projectmushroom/gravedecay/blob/master/docs/MACOS.md)
 for details. Gravedecay is MIT-licensed; see the upstream
 [LICENSE](https://github.com/projectmushroom/gravedecay/blob/master/LICENSE).

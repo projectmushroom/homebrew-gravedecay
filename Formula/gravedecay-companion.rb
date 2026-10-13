@@ -1,8 +1,8 @@
 class GravedecayCompanion < Formula
   desc "User-scoped macOS Gravedecay companion"
   homepage "https://github.com/projectmushroom/gravedecay"
-  url "https://github.com/projectmushroom/gravedecay/archive/refs/tags/v0.36.0.tar.gz"
-  sha256 "2c8f04fe1efe6b76007216a9daeb0a48b82525788835f444b4a6a76f884c661e"
+  url "https://github.com/projectmushroom/gravedecay/archive/refs/tags/v0.37.0.tar.gz"
+  sha256 "b77079def448934ae4511f4b5635f5737fb31fdfdfbeb95a3c56b6a25564b442"
   license "MIT"
 
   depends_on :macos
@@ -14,7 +14,7 @@ class GravedecayCompanion < Formula
   def install
     libexec.install "macos/gravedecay-mac", "macos/install.sh", "macos/status.sh", "macos/uninstall.sh"
     (bin/"gravedecay-mac").write_env_script libexec/"gravedecay-mac",
-                         GRAVEDECAY_MAC_BREW_TAG: "v0.36.0"
+                         GRAVEDECAY_MAC_BREW_TAG: "v0.37.0"
   end
 
   def caveats
